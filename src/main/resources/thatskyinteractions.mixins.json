@@ -4,17 +4,8 @@
   "package": "net.quepierts.thatskyinteractions.mixin",
   "compatibilityLevel": "JAVA_21",
   "refmap": "thatskyinteractions.refmap.json",
-  "client": [
-    "CameraMixin",
-    "ClientLevelMixin",
-    "FogRendererMixin",
-    "GameRendererMixin",
-    "LevelRendererMixin",
-    "MinecraftClientMixin",
-    "MouseHandlerMixin",
-    "PlayerRendererMixin",
-    "accessor.GameRendererAccessor"
-  ],
+  "mixins": [],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }

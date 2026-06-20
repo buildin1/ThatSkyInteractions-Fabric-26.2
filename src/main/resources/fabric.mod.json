@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "thatskyinteractions",
+  "version": "${version}",
+  "name": "ThatSkyInteractions",
+  "description": "A Minecraft mod about non-competitive social interactions, inspired by Sky: Children of the Light.",
+  "authors": [
+    "LouisQuepierts",
+    "buildin1 (Fabric 26.2 port)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/buildin1/ThatSkyInteractions-Fabric-26.2",
+    "sources": "https://github.com/buildin1/ThatSkyInteractions-Fabric-26.2"
+  },
+  "license": "MIT",
+  "icon": "thatskyinteractions.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.quepierts.thatskyinteractions.ThatSkyInteractions"
+    ],
+    "client": [
+      "net.quepierts.thatskyinteractions.client.ThatSkyInteractionsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2",
+    "fabric-api": "*",
+    "geckolib": ">=4.7.2",
+    "yet_another_config_lib_v3": ">=3.9.3",
+    "cardinal-components-base": ">=6.2.2",
+    "cardinal-components-entity": ">=6.2.2"
+  }
+}
