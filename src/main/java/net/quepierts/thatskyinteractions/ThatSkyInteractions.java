@@ -1,6 +1,9 @@
 package net.quepierts.thatskyinteractions;
 
 import net.fabricmc.api.ModInitializer;
+import net.quepierts.thatskyinteractions.common.registry.BlockEntities;
+import net.quepierts.thatskyinteractions.common.registry.Blocks;
+import net.quepierts.thatskyinteractions.common.registry.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +13,10 @@ public class ThatSkyInteractions implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("ThatSkyInteractions Fabric 26.2 initialized");
+        LOGGER.info("ThatSkyInteractions Fabric 26.2 initializing");
+
+        Blocks.init();
+        Items.init();
+        BlockEntities.init();
     }
 }

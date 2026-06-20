@@ -26,10 +26,6 @@
   "depends": {
     "fabricloader": ">=0.19.3",
     "minecraft": ">=26.2",
-    "fabric-api": "*",
-    "geckolib": ">=4.7.2",
-    "yet_another_config_lib_v3": ">=3.9.3",
-    "cardinal-components-base": ">=6.2.2",
-    "cardinal-components-entity": ">=6.2.2"
+    "fabric-api": "*"
   }
 }
