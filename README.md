@@ -1,103 +1,115 @@
 ![Banner](./images/banner.png)
-# ThatSkyInteractions
-## Overview
 
-**ThatSkyInteractions** is an *experimental Minecraft mod* that introduces the **non-competitive social interaction system** inspired by the game *Sky: Children of the Light* into the Minecraft world.  
-This project serves as a **research prototype** for the topic:
+# ThatSkyInteractions（Fabric 26.2 移植版）
 
-> *“Can non-competitive player interactions mitigate the effects of game toxicity?”*
-
-This mod explores how cooperative, emotionally expressive interactions might reshape the way players communicate and connect in multiplayer environments.
+> 本项目为 [ThatSkyInteractions](https://github.com/LouisQuepierts/ThatSkyInteractions) 的 Fabric 26.2 移植分支。
+> 在保留原项目《Sky 光·遇》风格非竞争性社交交互玩法的基础上，迁移至 Fabric 加载器，并同时兼容 OpenGL 与 Vulkan 渲染后端。
 
 ---
 
-## Features
+## 平台支持
 
-### Interaction Tree
+| 平台 | 状态 | 说明 |
+|---|---|---|
+| **Fabric 26.2** | ✅ 支持 | 客户端主版本 |
+| **OpenGL** | ✅ 支持 | 默认渲染后端 |
+| **Vulkan** | ✅ 支持 | 实验性渲染后端 |
+| **Paper / Folia 服务端** | ✅ 支持 | 需安装配套服务端插件 |
+| **NeoForge / Forge** | ❌ 不支持 | 本分支仅维护 Fabric 版本 |
 
-Players can open the **Interaction Tree** interface by pressing the *interaction hotkey* while empty-handed and right-clicking another player.  
-This interface faithfully recreates the friend system from *Sky: Children of the Light*.
+---
 
-Each node in the tree represents a **unique interaction**, including:
-- Emotional actions and gestures
-- Utility options like **blocking** or **renaming** other players
-- Unlockable features requiring **mutual consent** between both players
+## 服务端插件
 
-Interactions must be mutually confirmed before being executed.  
-Nodes are gradually **unlocked** by spending candles or red candles.
+本 Mod 需要配套的服务端插件来处理玩家关系、交互树解锁、星盘数据等逻辑。
+
+请前往以下仓库下载对应版本的服务端插件：
+
+- **Paper / Folia 服务端插件**：https://github.com/buildin1/ThatSkyInteractions-Folia-Plugin
+
+> 服务端插件尚未发布时，该链接可能为空。可关注本仓库后续更新。
+
+---
+
+## 主要特性
+
+### 交互树（Interaction Tree）
+
+空手并按下交互快捷键后，右键其他玩家可打开交互树界面。
+
+交互树复刻了《Sky 光·遇》的好友系统，包含：
+
+- 情感动作与手势
+- 屏蔽、重命名等实用选项
+- 需要双方确认才能执行的解锁型交互
+- 消耗普通蜡烛或红蜡烛逐步解锁节点
 
 <table>
   <tr>
     <td>
-      <img src="./images/interaction_tree_locked.png" alt="Interaction Tree" width="350"/>
+      <img src="./images/interaction_tree_locked.png" alt="交互树" width="350"/>
     </td>
     <td>
-      <img src="./images/interaction_tree_unlocked.png" alt="Another Feature" width="350"/>
+      <img src="./images/interaction_tree_unlocked.png" alt="已解锁交互树" width="350"/>
     </td>
   </tr>
 </table>
 
----
+### 建筑方块
 
-### Building Blocks
-![Building Blocks](./images/banner_blocks.png)
+![建筑方块](./images/banner_blocks.png)
 
-This part was originally created for the **TeaCon Jiachen** exhibition venue.  
-While available in the mod, it is primarily for **creative mode use only**.
+#### 蜡烛
 
-#### Candles
-This mod introduces **16 types of customizable candles** that can be freely arranged within a single block space.  
-Each candle has its own **style, position, and state**, unlike vanilla Minecraft candles which are limited in placement and count.
+本 Mod 提供 **16 种可自定义蜡烛**，可在单个方块空间内自由摆放，每种蜡烛拥有独立的样式、位置与状态。
 
-> Performance Note: The candle system has been heavily optimized for rendering efficiency, so it runs smoothly even with many candles in view.
+> 性能提示：蜡烛系统已针对渲染效率做大量优化，即使视野内蜡烛数量较多也能流畅运行。
 
-#### Wing of Light
-A shimmering, bloom-lit player decoration inspired by the *Sky* aesthetic — bringing a glowing.
+#### 光之翼（Wing of Light）
 
----
+带有泛光效果的玩家装饰，灵感来自《Sky 光·遇》的美学风格。
 
-### Astrolabe (WIP)
+### 星盘（Astrolabe，开发中）
 
-The **Astrolabe** is an upcoming system that allows players to open a **friend overview interface** via a hotkey.  
-From there, you’ll be able to view your connected friends and potentially navigate to them in the future.
-
+未来将通过快捷键打开好友总览界面，查看已建立连接的好友，并可能支持快速导航。
 
 ---
 
-## Data-driven Design
+## 数据驱动设计
 
-ThatSkyInteractions supports user-defined interactions through Minecraft datapacks.  
-You can add your own **interaction animations** to the interaction tree by editing this [file](./src/main/resources/data/thatskyinteractions/interact_trees/friend.json)
+ThatSkyInteractions 支持通过 Minecraft 数据包自定义交互树。
+
+你可以通过编辑 [friend.json](./src/main/resources/data/thatskyinteractions/interact_trees/friend.json) 添加自己的交互动作。
 
 <details>
-<summary>Example Interaction Tree</summary>
+<summary>交互树示例</summary>
 
 ```json5
 {
-  "root": "root",                                  // the root node
-  "nodes": [                                       // the node definitions
+  "root": "root",                                  // 根节点 ID
+  "nodes": [                                       // 节点定义
     {
-      "id": "root",                                // node id, should be unique
-      "type": "friend",                            // suggestion: root node should use "friend" as type
-      "price": 3,                                  // unlock price
-      "left": "like",                              // the node at the left branch
-      "middle": "high_five_1",                     // the node at the middle branch
-      "right": "block"                             // the node at the right branch
+      "id": "root",                                // 节点 ID，需唯一
+      "type": "friend",                            // 建议根节点使用 "friend"
+      "price": 3,                                  // 解锁价格
+      "left": "like",                              // 左分支节点
+      "middle": "high_five_1",                     // 中分支节点
+      "right": "block"                             // 右分支节点
     },
     {
       "id": "high_five_1",
-      "type": "interaction",                        // interaction node
-      "price": 1,                                   // unlock price
-      "interact": "thatskyinteractions:high_five",  // interaction animation id (SimpleAnimator format)
+      "type": "interaction",                        // 交互节点
+      "price": 1,                                   // 解锁价格
+      "interact": "thatskyinteractions:high_five",  // 交互动画 ID（Geckolib 格式）
       "left": "high_five_2",
       "middle": "hug_1"
     },
     {
       "id": "lock_1",
-      "type": "lock",                               // lock node, will use red candle instead of regular candle
+      "type": "lock",                               // 锁定节点，解锁时消耗红蜡烛
       "price": 1,
       "middle": "double_high_five_1"
-    },
+    }
     // ...
   ]
 }
@@ -107,36 +119,36 @@ You can add your own **interaction animations** to the interaction tree by editi
 
 ---
 
-## Research Background
+## 依赖前置
 
-The creation of **ThatSkyInteractions** is part of an experimental study on **non-competitive game design**.  
-The key question it explores:
-
-> *“Can the introduction of cooperative, emotionally expressive interaction systems reduce toxic behaviors in online multiplayer games?”*
-
-By adapting the *Sky*-style friend system into Minecraft, the project aims to demonstrate how empathy-driven design elements may promote a healthier, more positive gaming community.
-
----
-
-## TODO
-
-### Content & Features
-- Modify rendering shaders for better interaction visuals
-- Add **single-player interaction animations** and improve data-driven logic
-
-### Data-driven System
-- Refactor the **interaction tree registration system** to support modular node definitions
-
-### Dependencies & Architecture
-- Gradually migrate animation handling from **SimpleAnimator** to **Animata4J**
-- Separate non-interaction and non-animation content into a standalone mod: **HeartFire**
+| 前置 | 用途 |
+|---|---|
+| [Fabric API](https://modrinth.com/mod/fabric-api) | Fabric 基础 API |
+| [Geckolib](https://modrinth.com/mod/geckolib) | 动画渲染（已验证支持 Vulkan） |
+| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | 配置界面 |
+| [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api) | 实体/玩家数据组件（可选，视实现而定） |
 
 ---
 
-## Credit
-Developer/Animator/Artist: LouisQuepierts
+## 构建
 
-Inspired by *Sky: Children of the Light* by thatgamecompany.  
-All design references are used for educational and non-commercial purposes.
+```bash
+./gradlew build
+```
 
-Attended TeaCon Jiachen (https://www.teacon.cn/jiachen/)
+构建产物位于 `build/libs/`。
+
+---
+
+## 鸣谢
+
+- 原作者：**LouisQuepierts**
+- 灵感来源：thatgamecompany《Sky 光·遇》
+- 所有设计参考仅用于教育与非营利目的
+- 原项目曾参展 TeaCon 甲辰（https://www.teacon.cn/jiachen/）
+
+---
+
+## 许可证
+
+本项目为原 ThatSkyInteractions 的 Fork，具体许可证请参照原仓库。

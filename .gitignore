@@ -4,3 +4,8 @@
 /res/
 /run/
 /calculate.xlsx
+
+# macOS
+.DS_Store
+._*
+
