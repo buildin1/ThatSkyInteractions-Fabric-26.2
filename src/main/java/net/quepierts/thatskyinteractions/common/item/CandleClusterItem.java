@@ -7,8 +7,8 @@ import net.quepierts.thatskyinteractions.common.block.CandleType;
 public class CandleClusterItem extends BlockItem {
     private final CandleType type;
 
-    public CandleClusterItem(Block block, CandleType type) {
-        super(block, new Properties());
+    public CandleClusterItem(Block block, Properties properties, CandleType type) {
+        super(block, properties);
         this.type = type;
     }
 

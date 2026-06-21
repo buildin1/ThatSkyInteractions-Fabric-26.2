@@ -1,0 +1,480 @@
+Command: /Users/buildin1/Library/Java/JavaVirtualMachines/azul-25.0.3/Contents/Home/bin/java -Xmx4096m "-Dfile.encoding=UTF-8" "-Dstdout.encoding=UTF-8" "-Dstderr.encoding=UTF-8" "-Djava.rmi.server.useCodebaseOnly=true" "-Dcom.sun.jndi.rmi.object.trustURLCodebase=false" "-Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false" "-Dlog4j2.formatMsgNoLookups=true" "-Dlog4j.configurationFile=/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/log4j2.xml" "-Dminecraft.client.jar=/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/VulkanOptimization 26.2-4.2.jar" "-Xdock:name=Minecraft VulkanOptimization 26.2-4.2" "-Xdock:icon=/Users/buildin1/Desktop/minecraft/.minecraft/assets/objects/f0/f00657542252858a721e715a2e888a9226404e35" "-Duser.home=/Users/buildin1/Desktop/minecraft" "-Djava.net.useSystemProxies=true" -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC "-XX:G1MixedGCCountTarget=5" "-XX:G1NewSizePercent=20" "-XX:G1ReservePercent=20" "-XX:MaxGCPauseMillis=50" "-XX:G1HeapRegionSize=32m" -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods "-XX:MaxNodeLimit=240000" "-XX:NodeLimitFudgeFactor=8000" "-XX:TieredCompileTaskTimeout=10000" "-XX:ReservedCodeCacheSize=400M" "-XX:NonNMethodCodeHeapSize=12M" "-XX:ProfiledCodeHeapSize=194M" "-XX:NmethodSweepActivity=1" -XX:+UseCompactObjectHeaders "--sun-misc-unsafe-memory-access=allow" "-Dfml.ignoreInvalidMinecraftCertificates=true" "-Dfml.ignorePatchDiscrepancies=true" -XstartOnFirstThread "--sun-misc-unsafe-memory-access=allow" "--enable-native-access=ALL-UNNAMED" "-Djava.library.path=/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/natives-macos-arm64/java" "-Djna.tmpdir=/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/natives-macos-arm64/jna" "-Dorg.lwjgl.system.SharedLibraryExtractPath=/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/natives-macos-arm64/lwjgl" "-Dio.netty.native.workdir=/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/natives-macos-arm64/netty" "-Dminecraft.launcher.brand=HMCL" "-Dminecraft.launcher.version=3.15.0.346" -cp "/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/fabricmc/intermediary/0.0.0/intermediary-0.0.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/ca/weblite/java-objc-bridge/1.1/java-objc-bridge-1.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/authlib/9.0.75/authlib-9.0.75.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/logging/1.7.12/logging-1.7.12.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-buffer/4.2.15.Final/netty-buffer-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-codec-base/4.2.15.Final/netty-codec-base-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-codec-compression/4.2.15.Final/netty-codec-compression-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-codec-http/4.2.15.Final/netty-codec-http-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-common/4.2.15.Final/netty-common-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-handler/4.2.15.Final/netty-handler-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-resolver/4.2.15.Final/netty-resolver-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.2.15.Final/netty-transport-classes-epoll-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-transport-classes-kqueue/4.2.15.Final/netty-transport-classes-kqueue-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-transport-native-kqueue/4.2.15.Final/netty-transport-native-kqueue-4.2.15.Final-osx-aarch_64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-transport-native-kqueue/4.2.15.Final/netty-transport-native-kqueue-4.2.15.Final-osx-x86_64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.2.15.Final/netty-transport-native-unix-common-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/io/netty/netty-transport/4.2.15.Final/netty-transport-4.2.15.Final.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.26.0/log4j-api-2.26.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.26.0/log4j-core-2.26.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.0/log4j-slf4j2-impl-2.26.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-freetype/3.4.1/lwjgl-freetype-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-freetype/3.4.1/lwjgl-freetype-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-freetype/3.4.1/lwjgl-freetype-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.4.1/lwjgl-jemalloc-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.4.1/lwjgl-jemalloc-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.4.1/lwjgl-jemalloc-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.4.1/lwjgl-openal-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.4.1/lwjgl-openal-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.4.1/lwjgl-openal-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.4.1/lwjgl-opengl-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.4.1/lwjgl-opengl-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.4.1/lwjgl-opengl-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-shaderc/3.4.1/lwjgl-shaderc-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-shaderc/3.4.1/lwjgl-shaderc-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-shaderc/3.4.1/lwjgl-shaderc-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-spvc/3.4.1/lwjgl-spvc-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-spvc/3.4.1/lwjgl-spvc-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-spvc/3.4.1/lwjgl-spvc-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.4.1/lwjgl-stb-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.4.1/lwjgl-stb-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.4.1/lwjgl-stb-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.4.1/lwjgl-tinyfd-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.4.1/lwjgl-tinyfd-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.4.1/lwjgl-tinyfd-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-vma/3.4.1/lwjgl-vma-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-vma/3.4.1/lwjgl-vma-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-vma/3.4.1/lwjgl-vma-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-vulkan/3.4.1/lwjgl-vulkan-3.4.1.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-vulkan/3.4.1/lwjgl-vulkan-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl-vulkan/3.4.1/lwjgl-vulkan-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1-natives-macos.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1-natives-macos-arm64.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1-unsafe.jar:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/VulkanOptimization 26.2-4.2.jar" net.fabricmc.loader.impl.launch.knot.KnotClient --username YuzuNyaa --version "VulkanOptimization 26.2-4.2" --gameDir "/Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2" --assetsDir /Users/buildin1/Desktop/minecraft/.minecraft/assets --assetIndex 32 --uuid d7e6453a2ad84f9aa130c90d78f4be7b --accessToken <access token> --clientId "\${clientid}" --xuid "\${auth_xuid}" --versionType "HMCL 3.15.0.346" --width 854 --height 480
+[07:49:07] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[07:49:08] [main/WARN]: Warnings were found!
+ - 模组 'Remove Reloading Screen' (rrls) 5.2.7+mc.26.2 建议安装 forgeconfigapiport 的 26.2.0 及以上版本，但没有安装它！
+	 - 为了最佳体验，您应该安装 forgeconfigapiport 的 26.2.0 及以上版本。
+[07:49:08] [main/INFO]: Loading 139 mods:
+	- badoptimizations 2.4.1
+	- betterblockentities 1.3.6+mc26.2
+	- c2me 0.4.1-alpha.0.3+26.2
+	   |-- c2me-base 0.4.1-alpha.0.3+26.2
+	   |-- c2me-client-uncapvd 0.4.1-alpha.0.3+26.2
+	   |-- c2me-fixes-chunkio-threading-issues 0.4.1-alpha.0.3+26.2
+	   |-- c2me-fixes-general-threading-issues 0.4.1-alpha.0.3+26.2
+	   |-- c2me-fixes-worldgen-threading-issues 0.4.1-alpha.0.3+26.2
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.4.1-alpha.0.3+26.2
+	   |-- c2me-notickvd 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-allocs 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-chunkio 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-dfc 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-math 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-natives-math 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-scheduling 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-worldgen-general 0.4.1-alpha.0.3+26.2
+	   |-- c2me-opts-worldgen-vanilla 0.4.1-alpha.0.3+26.2
+	   |-- c2me-rewrites-chunk-serializer 0.4.1-alpha.0.3+26.2
+	   |-- c2me-rewrites-chunk-system 0.4.1-alpha.0.3+26.2
+	   |-- c2me-rewrites-chunkio 0.4.1-alpha.0.3+26.2
+	   |-- c2me-server-utils 0.4.1-alpha.0.3+26.2
+	   |-- c2me-threading-lighting 0.4.1-alpha.0.3+26.2
+	   |-- com_github_ben-manes_caffeine_caffeine 3.2.1
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- com_ishland_c2me_tests_tests 0.4.1-alpha.0.3
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.3.7-beta.1
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 26.2.155
+	   \-- cloth-basic-math 0.6.1
+	- dynamic_fps 3.11.9
+	   |-- dynamic_fps_common 3.11.9
+	   \-- net_lostluma_battery 2.1.0
+	- entityculling 1.10.4
+	   |-- transition 1.0.21
+	   \-- trender 1.0.15
+	- fabric-api 0.152.2+26.2
+	   |-- fabric-api-base 2.0.4+ece063239e
+	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
+	   |-- fabric-biome-api-v1 18.0.6+c7bd5b8e9e
+	   |-- fabric-block-api-v1 3.0.3+ec56b6019e
+	   |-- fabric-block-getter-api-v2 2.0.7+ec56b6019e
+	   |-- fabric-command-api-v2 3.1.0+00cb03469e
+	   |-- fabric-content-registries-v0 11.2.2+b7a678a99e
+	   |-- fabric-convention-tags-v2 4.6.4+2aae60389e
+	   |-- fabric-crash-report-info-v1 1.0.5+086d547a9e
+	   |-- fabric-creative-tab-api-v1 5.0.14+d871b99e9e
+	   |-- fabric-data-attachment-api-v1 2.2.16+aa0fd6fe9e
+	   |-- fabric-data-generation-api-v1 25.4.2+5e56e5409e
+	   |-- fabric-debug-api-v1 1.0.2+c792624d9e
+	   |-- fabric-dimensions-v1 5.1.9+9cbf5da59e
+	   |-- fabric-entity-events-v1 5.0.5+06488ac19e
+	   |-- fabric-events-interaction-v0 5.2.6+8f57f7ee9e
+	   |-- fabric-game-rule-api-v1 4.0.8+46a6d00c9e
+	   |-- fabric-item-api-v1 14.1.6+0ecb053f9e
+	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
+	   |-- fabric-lifecycle-events-v1 4.1.3+4575b05f9e
+	   |-- fabric-loot-api-v3 3.0.17+06488ac19e
+	   |-- fabric-menu-api-v1 2.0.16+086d547a9e
+	   |-- fabric-message-api-v1 7.0.7+086d547a9e
+	   |-- fabric-model-loading-api-v1 8.0.12+c80601bb9e
+	   |-- fabric-networking-api-v1 6.3.3+72073ef09e
+	   |-- fabric-object-builder-api-v1 24.0.6+46a6d00c9e
+	   |-- fabric-particles-v1 5.0.18+d1756aa99e
+	   |-- fabric-permission-api-v1 1.0.2+7c33558a9e
+	   |-- fabric-recipe-api-v1 9.0.20+11e1c9a39e
+	   |-- fabric-registry-sync-v0 7.1.0+c7bd5b8e9e
+	   |-- fabric-renderer-api-v1 14.0.2+93d3a2f59e
+	   |-- fabric-renderer-indigo 9.0.2+e73ab60d9e
+	   |-- fabric-rendering-fluids-v1 6.0.4+06488ac19e
+	   |-- fabric-rendering-v1 25.1.6+46a6d00c9e
+	   |-- fabric-resource-conditions-api-v1 6.1.0+10e9a28b9e
+	   |-- fabric-resource-loader-v0 3.3.20+4fc5413f9e
+	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
+	   |-- fabric-screen-api-v1 5.0.3+086d547a9e
+	   |-- fabric-serialization-api-v1 2.0.4+11a26f319e
+	   |-- fabric-sound-api-v1 2.0.5+11a26f319e
+	   |-- fabric-tag-api-v1 2.1.3+794df31d9e
+	   |-- fabric-transfer-api-v1 8.0.11+39b5a3929e
+	   \-- fabric-transitive-access-wideners-v1 8.1.3+e098252d9e
+	- fabric-language-kotlin 1.13.12+kotlin.2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- fadeless 2.0.8-26.2
+	   \-- midnightlib 1.9.3
+	- fastipping 1.0.11
+	- fzzy_config 0.7.6+26.2
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.7.0
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 5.5.2
+	- immediatelyfast 1.16.0+26.2
+	   \-- net_lenni0451_reflect 1.6.2
+	- java 25
+	- lithium 0.25.0+mc26.2
+	- minecraft 26.2
+	- modernfix 5.27.17-build.3
+	   \-- mixinextras 0.5.4
+	- modmenu 20.0.0-beta.3
+	   |-- fabric-api-base 2.0.4+ece063239e
+	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
+	   |-- fabric-lifecycle-events-v1 4.1.3+4575b05f9e
+	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
+	   \-- fabric-screen-api-v1 5.0.3+086d547a9e
+	- moreculling 1.8.0-beta.1
+	   \-- conditional-mixin 0.6.3
+	- mousetweaks 2.31
+	- packetfixer 3.3.5
+	- placeholder-api 3.1.0-beta.1+26.2
+	- reeses-sodium-options 2.0.5+mc26.2
+	- rrls 5.2.7+mc.26.2
+	- scalablelux 0.2.1+fabric.2b08348
+	- sodium 0.9.0+mc26.2
+	- sodium-extra 0.8.9+mc26.2
+	- thatskyinteractions 1.0.0-fabric-26.2
+	- vmp 0.2.0+beta.7.235+26.2-rc-2
+	- yet_another_config_lib_v3 3.9.4+26.2-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- zfastnoise 1.0.35+26.2
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- zoomify 2.16.1+26.2
+[07:49:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/buildin1/Desktop/minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[07:49:08] [main/INFO]: Compatibility level set to JAVA_17
+[07:49:08] [main/INFO]: Compatibility level set to JAVA_25
+[07:49:08] [main/INFO]: Config version: 6
+[07:49:08] [main/INFO]: BadOptimizations config dump:
+[07:49:08] [main/INFO]: enable_toast_optimizations: true
+[07:49:08] [main/INFO]: ignore_mod_incompatibilities: false
+[07:49:08] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[07:49:08] [main/INFO]: enable_lightmap_caching: true
+[07:49:08] [main/INFO]: enable_particle_manager_optimization: true
+[07:49:08] [main/INFO]: enable_entity_renderer_caching: true
+[07:49:08] [main/INFO]: log_config: true
+[07:49:08] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[07:49:08] [main/INFO]: config_version: 6
+[07:49:08] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[07:49:08] [main/INFO]: enable_block_entity_renderer_caching: true
+[07:49:08] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[07:49:08] [main/INFO]: enable_entity_flag_caching: true
+[07:49:08] [main/INFO]: ignore_mod_cache_hooks: false
+[07:49:08] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[07:49:08] [main/INFO]: enable_sky_color_caching: true
+[07:49:08] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[07:49:08] [main/INFO]: show_f3_text: true
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[07:49:08] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[07:49:08] [main/WARN]: Cannot find native library osx-aarch_64-libc2me-opts-natives-math.dylib, possibly unsupported platform for native acceleration
+[07:49:08] [main/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[07:49:08] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[07:49:08] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[07:49:08] [main/WARN]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:49:08] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[07:49:09] [main/INFO]: Loaded configuration file for ModernFix 5.27.17-build.3: 67 options available, 4 override(s) found
+[07:49:09] [main/WARN]: Option 'mixin.perf.release_protochunks' overriden (by mods [c2me]) to 'false'
+[07:49:09] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[07:49:09] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[07:49:09] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[07:49:09] [main/INFO]: Applying Nashorn fix
+[07:49:09] [main/INFO]: Configuring Minecraft's max.bg.threads option with 5 threads
+[07:49:09] [main/WARN]: Reference map 'modernfix.refmap.json' for modernfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:49:09] [main/WARN]: Reference map 'modernfix.refmap.json' for modernfix-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:49:09] [main/WARN]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:49:09] [main/INFO]: Loaded configuration file for Sodium: 36 options available, 0 override(s) found
+[07:49:09] [main/INFO]: Loaded configuration file for Sodium Extra: 26 options available, 0 override(s) found
+[07:49:09] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[07:49:09] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:49:09] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:49:09] [main/WARN]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net/vulkanmod/config/option/Options)
+[07:49:10] [main/INFO]: Searching for graphics cards...
+[07:49:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[07:49:12] [Datafixer Bootstrap #0/INFO]: 295 Datafixer optimizations took 471 milliseconds
+[07:49:13] [main/INFO]: ModernFix reached bootstrap stage (7.292 s after launch)
+[07:49:15] [main/WARN]: Method overwrite conflict for getTemperature in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[07:49:19] [main/INFO]: Vanilla bootstrap took 5092 milliseconds
+[07:49:19] [Render thread/WARN]: @ModifyConstant conflict. Skipping rrls.mixins.json:animation.TitleScreenMixin from mod rrls->@ModifyConstant::rrls$changeAnimationSpeed(F)F with priority 999, already redirected by fadeless.mixins.json:TitleScreenMixin from mod fadeless->@ModifyConstant::removeFade(F)F with priority 1000
+[07:49:19] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:49:19] [Render thread/INFO]: Setting user: YuzuNyaa
+[07:49:19] [Render thread/INFO]: Loading Fadeless Fabric
+[07:49:19] [Render thread/INFO]: ping & connect fast!
+[07:49:20] [Render thread/INFO]: Packet Fixer 3.3.5 Fabric has been initialized!
+[07:49:20] [Render thread/INFO]: ThatSkyInteractions Fabric 26.2 initializing
+[07:49:20] [Render thread/INFO]: Hello Fabric world!
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2026-06-21 07:49:21
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'thatskyinteractions' at 'net.quepierts.thatskyinteractions.ThatSkyInteractions'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:456)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.ExceptionInInitializerError
+	at knot//net.quepierts.thatskyinteractions.ThatSkyInteractions.onInitialize(ThatSkyInteractions.java:19)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:409)
+	... 6 more
+Caused by: java.lang.NullPointerException: Block id not set
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at knot//net.minecraft.world.level.block.state.BlockBehaviour$Properties.effectiveDrops(BlockBehaviour.java:645)
+	at knot//net.minecraft.world.level.block.state.BlockBehaviour.<init>(BlockBehaviour.java:109)
+	at knot//net.minecraft.world.level.block.Block.<init>(Block.java:246)
+	at knot//net.quepierts.thatskyinteractions.common.block.WingOfLightBlock.<init>(WingOfLightBlock.java:7)
+	at knot//net.quepierts.thatskyinteractions.common.registry.Blocks.<clinit>(Blocks.java:28)
+	... 8 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:456)
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- System Details --
+Details:
+	Minecraft Version: 26.2
+	Minecraft Version ID: 26.2
+	Operating System: Mac OS X (aarch64) version 14.7.6
+	Java Version: 25.0.3, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 80504456 bytes (76 MiB) / 402653184 bytes (384 MiB) up to 4294967296 bytes (4096 MiB)
+	Memory (heap): init: 256MiB, used: 285MiB, committed: 384MiB, max: 4096MiB
+	Memory (non-head): init: 007MiB, used: 150MiB, committed: 151MiB, max: 000MiB
+	CPUs: 8
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M1
+	Identifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Firestorm + Icestorm
+	Frequency (GHz): 3.20
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: Apple M1
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MiB): 22528.00
+	Virtual memory used (MiB): 16694.33
+	Swap memory total (MiB): 6144.00
+	Swap memory used (MiB): 4974.00
+	Space in storage for jna.tmpdir (MiB): available: 146967.44, total: 471482.09
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 146967.44, total: 471482.09
+	Space in storage for io.netty.native.workdir (MiB): available: 146967.44, total: 471482.09
+	Space in storage for java.io.tmpdir (MiB): available: 146967.44, total: 471482.09
+	Space in storage for workdir (MiB): available: 146967.44, total: 471482.09
+	Operating System Version: Apple macOS 14.7.6 (Sonoma) build 23H626
+	Process Elevated: false
+	Process Loads: Uptime: 15s, user: 41s (282.18%), kernel: 2s (10.64%), total: 43s (292.82%)
+	Process Virtual Size (MiB): 408181.75
+	Process Resident Size (MiB): 699.16
+	JVM Flags: 19 total; -Xmx4096m -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:+UseCompactObjectHeaders
+	Debug Flags: 0 total; 
+	Fabric Mods: 
+		badoptimizations: BadOptimizations 2.4.1
+		betterblockentities: BBE 1.3.6+mc26.2
+		c2me: Concurrent Chunk Management Engine 0.4.1-alpha.0.3+26.2
+			c2me-base: Concurrent Chunk Management Engine (Base) 0.4.1-alpha.0.3+26.2
+			c2me-client-uncapvd: Concurrent Chunk Management Engine (Client/Uncap View Distance) 0.4.1-alpha.0.3+26.2
+			c2me-fixes-chunkio-threading-issues: Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues) 0.4.1-alpha.0.3+26.2
+			c2me-fixes-general-threading-issues: Concurrent Chunk Management Engine (Fixes/General/Threading Issues) 0.4.1-alpha.0.3+26.2
+			c2me-fixes-worldgen-threading-issues: Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues) 0.4.1-alpha.0.3+26.2
+			c2me-fixes-worldgen-vanilla-bugs: Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs) 0.4.1-alpha.0.3+26.2
+			c2me-notickvd: Concurrent Chunk Management Engine (No Tick View Distance) 0.4.1-alpha.0.3+26.2
+			c2me-opts-allocs: Concurrent Chunk Management Engine (Optimizations/Memory Allocations) 0.4.1-alpha.0.3+26.2
+			c2me-opts-chunkio: Concurrent Chunk Management Engine (Optimizations/Chunk IO) 0.4.1-alpha.0.3+26.2
+			c2me-opts-dfc: Concurrent Chunk Management Engine (Optimizations/Density Function Compiler) 0.4.1-alpha.0.3+26.2
+			c2me-opts-math: Concurrent Chunk Management Engine (Optimizations/Math) 0.4.1-alpha.0.3+26.2
+			c2me-opts-natives-math: Concurrent Chunk Management Engine (Optimizations/Natives Math) 0.4.1-alpha.0.3+26.2
+			c2me-opts-scheduling: Concurrent Chunk Management Engine (Optimizations/Scheduling) 0.4.1-alpha.0.3+26.2
+			c2me-opts-worldgen-general: Concurrent Chunk Management Engine (Optimizations/General WorldGen) 0.4.1-alpha.0.3+26.2
+			c2me-opts-worldgen-vanilla: Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen) 0.4.1-alpha.0.3+26.2
+			c2me-rewrites-chunk-serializer: Concurrent Chunk Management Engine (Rewrites/Chunk Serializer) 0.4.1-alpha.0.3+26.2
+			c2me-rewrites-chunk-system: Concurrent Chunk Management Engine (Rewrites/Chunk System) 0.4.1-alpha.0.3+26.2
+			c2me-rewrites-chunkio: Concurrent Chunk Management Engine (Rewrites/Chunk IO) 0.4.1-alpha.0.3+26.2
+			c2me-server-utils: Concurrent Chunk Management Engine (Server Utils) 0.4.1-alpha.0.3+26.2
+			c2me-threading-lighting: Concurrent Chunk Management Engine (Threading/Lighting) 0.4.1-alpha.0.3+26.2
+			com_github_ben-manes_caffeine_caffeine: caffeine 3.2.1
+			com_ibm_async_asyncutil: asyncutil 0.1.0
+			com_ishland_c2me_tests_tests: tests 0.4.1-alpha.0.3
+			io_reactivex_rxjava3_rxjava: rxjava 3.1.12
+			mixinsquared: MixinSquared 0.3.7-beta.1
+			net_objecthunter_exp4j: exp4j 0.4.8
+			org_jctools_jctools-core: jctools-core 4.0.5
+			org_reactivestreams_reactive-streams: reactive-streams 1.0.4
+		cloth-config: Cloth Config v26.2 26.2.155
+			cloth-basic-math: cloth-basic-math 0.6.1
+		dynamic_fps: Dynamic FPS 3.11.9
+			dynamic_fps_common: Dynamic FPS Common 3.11.9
+			net_lostluma_battery: battery 2.1.0
+		entityculling: EntityCulling 1.10.4
+			transition: TRansition 1.0.21
+			trender: TRender 1.0.15
+		fabric-api: Fabric API 0.152.2+26.2
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 2.0.17+11e1c9a39e
+			fabric-biome-api-v1: Fabric Biome API (v1) 18.0.6+c7bd5b8e9e
+			fabric-block-api-v1: Fabric Block API (v1) 3.0.3+ec56b6019e
+			fabric-block-getter-api-v2: Fabric BlockGetter API (v2) 2.0.7+ec56b6019e
+			fabric-command-api-v2: Fabric Command API (v2) 3.1.0+00cb03469e
+			fabric-content-registries-v0: Fabric Content Registries (v0) 11.2.2+b7a678a99e
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 4.6.4+2aae60389e
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 1.0.5+086d547a9e
+			fabric-creative-tab-api-v1: Fabric Creative Tab API (v1) 5.0.14+d871b99e9e
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 2.2.16+aa0fd6fe9e
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 25.4.2+5e56e5409e
+			fabric-debug-api-v1: Fabric Debug API (v1) 1.0.2+c792624d9e
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 5.1.9+9cbf5da59e
+			fabric-entity-events-v1: Fabric Entity Events (v1) 5.0.5+06488ac19e
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 5.2.6+8f57f7ee9e
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 4.0.8+46a6d00c9e
+			fabric-item-api-v1: Fabric Item API (v1) 14.1.6+0ecb053f9e
+			fabric-loot-api-v3: Fabric Loot API (v3) 3.0.17+06488ac19e
+			fabric-menu-api-v1: Fabric Menu API (v1) 2.0.16+086d547a9e
+			fabric-message-api-v1: Fabric Message API (v1) 7.0.7+086d547a9e
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 8.0.12+c80601bb9e
+			fabric-networking-api-v1: Fabric Networking API (v1) 6.3.3+72073ef09e
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 24.0.6+46a6d00c9e
+			fabric-particles-v1: Fabric Particles (v1) 5.0.18+d1756aa99e
+			fabric-permission-api-v1: Fabric Permission API (v1) 1.0.2+7c33558a9e
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 9.0.20+11e1c9a39e
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 7.1.0+c7bd5b8e9e
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 14.0.2+93d3a2f59e
+			fabric-renderer-indigo: Fabric Renderer - Indigo 9.0.2+e73ab60d9e
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 6.0.4+06488ac19e
+			fabric-rendering-v1: Fabric Rendering (v1) 25.1.6+46a6d00c9e
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 6.1.0+10e9a28b9e
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.3.20+4fc5413f9e
+			fabric-serialization-api-v1: Fabric Serialization API (v1) 2.0.4+11a26f319e
+			fabric-sound-api-v1: Fabric Sound API (v1) 2.0.5+11a26f319e
+			fabric-tag-api-v1: Fabric Tag API (v1) 2.1.3+794df31d9e
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 8.0.11+39b5a3929e
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 8.1.3+e098252d9e
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.12+kotlin.2.4.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.4.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.4.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.4.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.4.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.33.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.11.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.11.0
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.8.0
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.9.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.9.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.11.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.11.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.11.0
+		fabricloader: Fabric Loader 0.19.3
+			mixinextras: MixinExtras 0.5.4
+		fadeless: Fadeless 2.0.8-26.2
+			midnightlib: MidnightLib 1.9.3
+		fastipping: Fast IP Ping 1.0.11
+		fzzy_config: Fzzy Config 0.7.6+26.2
+			blue_endless_jankson: jankson 1.2.3
+			fabric-permissions-api-v0: fabric-permissions-api 0.7.0
+			net_peanuuutz_tomlkt_tomlkt-jvm: tomlkt-jvm 0.3.7
+		geckolib: GeckoLib 5 5.5.2
+		immediatelyfast: ImmediatelyFast 1.16.0+26.2
+			net_lenni0451_reflect: Reflect 1.6.2
+		java: OpenJDK 64-Bit Server VM 25
+		lithium: Lithium 0.25.0+mc26.2
+		minecraft: Minecraft 26.2
+		modernfix: ModernFix 5.27.17-build.3
+		modmenu: Mod Menu 20.0.0-beta.3
+			fabric-api-base: Fabric API Base 2.0.4+ece063239e
+			fabric-key-mapping-api-v1: Fabric Key Mapping API (v1) 2.0.5+e2bdee789e
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 4.1.3+4575b05f9e
+			fabric-resource-loader-v1: Fabric Resource Loader (v1) 2.0.13+9edec1269e
+			fabric-screen-api-v1: Fabric Screen API (v1) 5.0.3+086d547a9e
+		moreculling: More Culling 1.8.0-beta.1
+			conditional-mixin: conditional mixin 0.6.3
+		mousetweaks: Mouse Tweaks 2.31
+		packetfixer: Packet Fixer 3.3.5
+		placeholder-api: Placeholder API 3.1.0-beta.1+26.2
+		reeses-sodium-options: Reese's Sodium Options 2.0.5+mc26.2
+		rrls: Remove Reloading Screen 5.2.7+mc.26.2
+		scalablelux: ScalableLux 0.2.1+fabric.2b08348
+		sodium: Sodium 0.9.0+mc26.2
+		sodium-extra: Sodium Extra 0.8.9+mc26.2
+		thatskyinteractions: ThatSkyInteractions 1.0.0-fabric-26.2
+		vmp: Very Many Players 0.2.0+beta.7.235+26.2-rc-2
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.9.4+26.2-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+		zfastnoise: Fast Noise 1.0.35+26.2
+			com_electronwill_night-config_core: core 3.8.3
+			com_electronwill_night-config_toml: toml 3.8.3
+		zoomify: Zoomify 2.16.1+26.2
+	Launched Version: VulkanOptimization 26.2-4.2
+	Launcher name: HMCL
+	Backend library: LWJGL version 3.4.1-snapshot
+	Window size: <not initialized>
+	Surface Info: <no surface>
+	GFLW Platform: null
+	Graphics Device: <none>
+	GL debug messages: <no renderer available>
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 404
+	Type: Client
+	Locale: zh_CN_#Hans
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 8x Apple M1
+#@!@# Game crashed! Crash report saved to: #@!@# /Users/buildin1/Desktop/minecraft/.minecraft/versions/VulkanOptimization 26.2-4.2/crash-reports/crash-2026-06-21_07.49.21-client.txt
