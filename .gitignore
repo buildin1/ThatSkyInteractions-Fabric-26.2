@@ -3,6 +3,7 @@
 /.idea/
 /res/
 /run/
+/log/
 /calculate.xlsx
 
 # macOS
